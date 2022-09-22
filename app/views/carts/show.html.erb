@@ -4,6 +4,7 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if cart != {} %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +49,11 @@
       <% end %>
     </div>
   </div>
+<% end %>
+
+<% if cart == {} %>
+ <h4> Your cart is empty! </h4>
+ <a href='/'>Click here to go back to the home page</a>
+<% end %>
 
 </section>
