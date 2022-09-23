@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h1 class="display-4">Login</h1>
+  <p class="lead">
+  <%= form_tag '/login' do %>
+
+  Email: <%= text_field_tag :email %>
+  Password: <%= password_field_tag :password %>
+  <%= submit_tag "Submit" %>
+  </p>
+  <% end %>
+</div>

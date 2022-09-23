@@ -119,6 +119,18 @@ form.button_to {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 
 }
-.nav-about a:hover {
-  color:white
+.nav-about :hover {
+  color:whitesmoke
+}
+.nav-login {
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+}
+.nav-login :hover{
+  color: whitesmoke;
+  text-decoration: none;
 }

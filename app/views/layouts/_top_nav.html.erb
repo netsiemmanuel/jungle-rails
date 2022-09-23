@@ -11,8 +11,7 @@
     <a class="navbar-brand" href="<%= root_path %>">Jungle</a>
   
     <%= link_to 'About', :about, class: "nav-about" %>
- 
-  
+
     <button
       class="navbar-toggler"
       type="button"
@@ -46,6 +45,17 @@
           <%# </ul>
         </li> %>
       </ul>
+      <div class="nav-login">
+      <% if current_user %>
+      <span style="padding:14px"> Welcome <%= current_user.name %>  </span>
+       <%= link_to "Logout", '/logout' %> 
+   <% else %>
+       <%= link_to 'Login', '/login' %>   
+       <span>
+       <%= link_to 'Signup', '/signup' %> 
+       </span>
+   <% end %>
+    </div>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a
