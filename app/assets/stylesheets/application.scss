@@ -111,3 +111,14 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+.nav-about {
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+}
+.nav-about a:hover {
+  color:white
+}
