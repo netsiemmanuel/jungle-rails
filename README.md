@@ -13,7 +13,11 @@ A mini e-commerce application built with Rails 6.1.
 
 ## Final Product
 
+## Products Page(Home)
+
 !["Products Page(Home)"](https://github.com/netsiemmanuel/jungle-rails/blob/master/docs/jungle-prosucts-page.png?raw=true)
+
+## Payment Page
 
 !["Payment Page"](https://github.com/netsiemmanuel/jungle-rails/blob/master/docs/jungle-payment-page.png?raw=true)
 
