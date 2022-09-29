@@ -1,6 +1,21 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1.
+
+## Tech Stack
+
+- Ruby
+- Rails with ERB Templating
+- PostgreSQL with Active Record ORM
+- SCSS
+- Bootstrap
+- Testing: RSpec, cypress
+
+## Final Product
+
+!["Products Page(Home)"](https://github.com/netsiemmanuel/jungle-rails/blob/master/docs/jungle-prosucts-page.png?raw=true)
+
+!["Payment Page"](https://github.com/netsiemmanuel/jungle-rails/blob/master/docs/jungle-payment-page.png?raw=true)
 
 ## Setup
 
@@ -12,10 +27,6 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
-
-## Database
-
-If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
 
 ## Stripe Testing
 
